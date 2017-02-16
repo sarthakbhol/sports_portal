@@ -195,7 +195,8 @@ function new_submit()
     for (var i = 0; i < size; i++) {
             var temp=document.getElementById("d"+i);
             //console.log(temp.getElementsByTagName("input")[0].value);
-          s.push(temp.getElementsByTagName("input")[0].value.trim());
+            if(temp.getElementsByTagName("input")[0].value.trim() != "")
+            s.push(temp.getElementsByTagName("input")[0].value.trim());
     }
     s = s.filter( function( item, index, inputArray ) {
            return inputArray.indexOf(item) == index;
