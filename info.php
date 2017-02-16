@@ -7,20 +7,20 @@
 	$event=array();
 
 	$name="Event 1";
-	$male = array('price' =>500 ,'tsize'=>5 );
+	$male = array('price' =>500 ,'tsize'=>8 );
 	$female = array('price' =>200 ,'tsize'=>6 );
 
 	array_push($event,array('name'=>$name,'male' =>$male ,'female' =>$female,'status'=>$status));
 
 	$name="Event 2";
-	$male = array('price' =>500 ,'tsize'=>5 );
-	$female = array('price' =>200 ,'tsize'=>6 );
+	$male = array('price' =>500 ,'tsize'=>7 );
+	$female = array('price' =>200 ,'tsize'=>8 );
 
 	array_push($event,array('name'=>$name,'male' =>$male ,'female' =>$female,'status'=>$status));
 
 	$name="Event 3";
-	$male = array('price' =>500 ,'tsize'=>5 );
-	$female = array('price' =>200 ,'tsize'=>6 );
+	$male = array('price' =>500 ,'tsize'=>4 );
+	$female = array('price' =>200 ,'tsize'=>7 );
 
 	array_push($event,array('name'=>$name,'male' =>$male ,'female' =>$female,'status'=>$status));
 	$category['swimming']=$event;
@@ -150,7 +150,7 @@
 	array_push($event,array('name'=>$name,'male' =>$male ,'female' =>$female,'status'=>$status));
 
 	//array_push($category,array('TabbleTennis' =>$event));
-	$category['tabbletennis']=$event;
+	$category['tabletennis']=$event;
 
 	//----------------------squash-----------------------------
 
@@ -252,7 +252,7 @@
 	array_push($event,array('name'=>$name,'male' =>$male ,'female' =>$female,'status'=>$status));
 
 	//array_push($category,array('Atheletics' =>$event));
-	$category['atheletics']=$event;
+	$category['athletics']=$event;
 
 	//---------------------------chess-------------------
 

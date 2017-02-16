@@ -310,7 +310,10 @@
 
 			// Events.
 				$body.on('click', function(event) {
-
+					 $('#cat_choice').hide();
+   					$('#prev_result').hide();
+  					 $('#new_team_form').hide();
+  					 $('#last').fadeIn(1800);
 					// Article visible? Hide.
 						if ($body.hasClass('is-article-visible'))
 							$main._hide(true);
